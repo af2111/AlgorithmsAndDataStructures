@@ -83,6 +83,17 @@ class LinkedList {
                 curr = curr->next;
             }
         }
+
+        Node *find(int query) {
+            Node *curr = first;
+            while(curr != NULL) {
+                if(curr->val == query) {
+                    return curr;
+                }
+                curr = curr->next;
+            }
+            return NULL;
+        }
         Node *operator[](int index) {
             if(index >= _length - 1 || index < 0) {
                 std::cout << "IndexError\n";
@@ -106,6 +117,6 @@ int main() {
     for (int i = 0; i < 10; i++) {
         list.append(i);
     }
-    std::cout << list[1]->val << "\n";
+    std::cout << list.find(12) << "\n";
     return 0;
 }
