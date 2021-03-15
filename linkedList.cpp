@@ -121,5 +121,4 @@ int main() {
     return 0;
 }
 
-/*
-Queues and Stacks can be implemented by taking this class and only leaving the push/pop or unshift/pop methods*/
+// Queues and Stacks can be implemented by taking this class and only leaving the push/pop or unshift/pop methods
