@@ -120,3 +120,6 @@ int main() {
     std::cout << list.find(12) << "\n";
     return 0;
 }
+
+/*
+Queues and Stacks can be implemented by taking this class and only leaving the push/pop or unshift/pop methods*/
