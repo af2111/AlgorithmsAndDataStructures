@@ -5,18 +5,22 @@
 
 
 def isprime(value)
-  begin
+  
+  begin # This section handles wrong types
     value.to_f
   rescue TypeError
     puts "Fatal error: Only accepted types are integer and float"
     puts "Terminating"
+  end 
+  
+  if value == 2.0 # Handles the only exception as i is 2.0
+    return true
   end
   
-  half = value / 2
+  half = value / 2 
   i = 2.0
-  while i < half
-    
-    if value % i == 0.0
+  while i < half 
+    if value % i == 0.0  # Checks if number is divisble wth 0.0 as remainder(if not, then the number is prime)
       return false
     end
 
