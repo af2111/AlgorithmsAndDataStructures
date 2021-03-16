@@ -1,4 +1,4 @@
-def init_arr2d(x):
+def init_arr2d_square(x):
 
     if not x: x = 17
 
