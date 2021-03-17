@@ -1,5 +1,5 @@
 # I decided to use ruby for this because the 
-# interpreter apparently has very good memeory
+# interpreter apparently has very good memory
 # management, and for a function that works with large numbers this is important
 # to me
 
