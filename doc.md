@@ -8,9 +8,9 @@ Please document your code in this file
 * List any requirements/dependencies if there any
 * If possible, references
 
-### Algorithms
+## Algorithms
 
-#### [isprime.rb](https://github.com/af2111/AlgorithmsAndDataStructures/blob/master/ruby/isprime.rb)(Ruby)
+### [isprime.rb](https://github.com/af2111/AlgorithmsAndDataStructures/blob/master/ruby/isprime.rb)(Ruby)
 Ruby version ruby 3.0.0p0 (2020-12-25 revision 95aff21468) (x64-mingw32)
 
 This Ruby script takes a single integer as an argument and checks if it is a prime.
@@ -23,4 +23,4 @@ The code is partly based of this logic:
 https://www.programiz.com/java-programming/examples/prime-number
 
 
-### Data Structures
+## Data Structures
