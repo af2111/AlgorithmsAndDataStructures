@@ -19,7 +19,7 @@ it returns false as the number is divisible and therefore not a prime.
 If the modulo is never zero, it will return true as the number is not divisible
 by anthing but itself or one and is therefore not a prime.
 
-The code is partly based of this logic:
+The code is partly based off this logic:
 https://www.programiz.com/java-programming/examples/prime-number
 
 
